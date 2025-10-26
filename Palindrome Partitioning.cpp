@@ -1,5 +1,6 @@
 // # Intuition
-// -> 
+// -> First thought is to divide the string and check if the string is valid palindrome or not.
+// -> if the left part is palindrome then check for right and repeat the division step else backtrack.
 
 // # Approach
 // -> 
