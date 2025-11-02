@@ -1,3 +1,22 @@
+// # Intuition
+// -> To solve this problem, 2 more functions will be added :- backtrack function and to check if the color assigned to the vertex is safe or not.
+
+// # Approach
+// -> Create an adjacency list of the given combination.
+// -> Call the backtrack function for the first vertex.
+// -> Run a loop for number of colors to be assigned to each of the vertex.
+// -> check if the assigned color is safe for the vertex or not using safe function.
+// -> if safe then assign the color and check for the next vertex else check for another color.
+// -> if any of the backtrack of any vertex returns false then assign 0 and check again.
+// -> if all the colors are assigned successfully then return true.
+
+// # Complexity
+// - Time complexity:
+// <!-- Add your time complexity here, e.g. $$O(n)$$ -->
+
+// - Space complexity:
+// <!-- Add your space complexity here, e.g. $$O(n)$$ -->
+
 class Solution {
   public:
     
