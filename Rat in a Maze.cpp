@@ -1,3 +1,23 @@
+// # Intuition
+// -> First thought is what variables and vectors are required to solve this question
+// -> vector to store string for answers, visited array to mark visited cell, a string to strore answer.
+
+// # Approach
+// -> call the backtrack function for 1st index and pass an empty string.
+// -> declare direction array and mark the cell visited.
+// -> run a loop for all 4 directions.
+// -> Check for the direciton wether visited or not, maze value is 1 or not, and also check the boundries.
+// -> if all conditions are satisfied then add the direction in string and call the backtrack function.
+// -> pop_back the string to allow other direction to be added for another answer.
+// -> mark visited = 0 for the cell when done iterating. To allow other paths to check.
+
+// # Complexity
+// - Time complexity:
+// O(4^N^2)
+
+// - Space complexity:
+// O(N^2 + L*M)
+
 class Solution {
   public:
   
